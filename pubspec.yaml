@@ -46,10 +46,13 @@ dependencies:
   awesome_notifications: ^0.9.3+1 # notifications services (will be used for fcm)
 
   flutter_launcher_icons: # change app icon
-  change_app_package_name: # change package name
-  rename_app: 1.4.0 # rename app
+  change_app_package_name: # change package name #flutter pub run change_app_package_name:main com.new.package.name
+  rename_app: 1.4.0 # rename app #dart run rename_app:main all="My App Name"
 
   flutter_svg:  # display svg vectors
+  sentry_flutter: ^8.0.0
+  apk_installer: ^0.0.4
+  permission_handler: ^11.3.1
 
   flutter:
     sdk: flutter
